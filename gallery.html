@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="gallery.css">
+  <link rel="shortcut icon" type="image/x-icon" href="images/Yatra.png" />
+  <script src="https://kit.fontawesome.com/df7e5de428.js" crossorigin="anonymous"></script>
+  <title>Gallery</title>
+</head>
+<body>
+  <!-- Navigation bar -->
+<header>
+  <a href="#" class="logo">Yatra</a>
+  <ul class="link">
+      <li><a href="Home.html">Home</a></li>
+      <li><a href="trip.html">Trip</a></li>
+      <!-- <li><a href="#">Blogs</a></li> -->
+      <li><a href="#">Gallery</a></li>
+      <li><a href="about.html">About us</a></li>
+      <li><a href="login.php">Sign In</a></li>
+  </ul>
+</header>
+
+<div class="container">
+  <div class="heading">
+    <h3>Photo <span>Gallery</span></h3>
+  </div>
+  <div class="box">
+    
+    <div class="dream">
+      <img src="images/pokhara.jpg">
+       <img src="images/lumbini.jpg">
+        <img src="images/tripcover.jpg">
+         <img src="images/gau.jpg">
+          <img src="images/pul.jpg">
+          
+    </div>
+
+      <div class="dream">
+      <img src="images/gallery/mandir.jpg">
+       <img src="images/gallery/budo.jpg">
+        <img src="images/gallery/himal.jpg">
+         <img src="images/gallery/white.jpg">
+          <img src="images/gallery/baby.jpg">
+          
+    </div>
+
+      <div class="dream">
+      <img src="images/rara.jpg">
+       <img src="images/gallery/babu.jpg">
+        <img src="images/gallery/mardi.jpg">
+         <img src="images/gallery/lumbini.jpg">
+          <img src="images/gallery/palpa.jpg">
+          
+    </div>
+
+<!-- Footer  -->
+
+
+
+<script type="text/javascript">
+  window.addEventListener("scroll", function(){
+    var header = document.querySelector("header");
+    header.classList.toggle("sticky", window.scrollY > 0);
+  })
+  </script>
+  
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset:120,
+        duration: 1200,
+        easing: 'ease'
+      });
+    </script>
+</body>
+</html>

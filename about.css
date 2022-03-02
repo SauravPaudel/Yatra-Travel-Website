@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+}
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  background-color: rgb(24, 18, 18);
+  min-height: 290vh;
+  width: 250vh;
+  overflow-x: hidden;
+}
+header{
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+transition: 0.6s;
+padding: 60px 100px;
+z-index: 100000;
+}
+
+header.sticky{
+  padding: 30px 100px;
+  background: black;
+}
+
+header.sticky .logo
+header.sticky ul li a{
+  color: rgb(0, 0, 0);
+  
+}
+
+header .logo{
+  position: relative;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 2em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: 0.6s;
+ 
+}
+
+header .ul{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+
+header ul li{
+  position: relative;
+  list-style: none;
+  font-family:Arial, Helvetica, sans-serif
+  
+}
+ header ul li a{
+   position: relative;
+   margin: 0 15px;
+   text-decoration: none;
+   color: rgb(250, 250, 250);
+   letter-spacing: 2px;
+   font-weight: 500px;
+   transition: 0.6s;
+   font-size: 1em;
+   
+   
+ }
+
+ li{
+   float: left;
+ }
+
+.teams{
+  height: 500px;
+  width: 700px;
+}
+
+#member{
+  width: 500px;
+   position: relative;
+   left: 250px;
+   bottom: -80px;
+}
+
+p{
+color: aliceblue;
+position: relative;
+bottom: 500px;
+left: 800px;
+font-family:Montserrat;
+font-size: 18px;
+}
+
+ h1{
+  position: relative;
+  bottom:500px;
+  left: 800px;
+  font-family:Montserrat;
+  font-size: 35px;
+  color: aqua;
+ }
+
+h2{
+  color: rgb(15, 21, 26);
+  font-size: 60px;
+  position: relative;
+  left: 700px;
+  bottom: 1250px;
+}
+
+
+/* Footer  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+footer{
+	background-color: #000000;
+   height: 270px;
+   position: relative;
+   top: 50px;
+}
+
+.sub-footer{
+  position: relative;
+  left: 650px;
+  top: 100px;
+}
+
+a.Home-1{
+  color: #fafafa;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  position: relative;
+  right: 140px;
+}
+a.Trip{
+  color: #f3f3f5;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  position: relative;
+  right: 75px;
+}
+a.Blogs{
+  color: #efeff3;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  position: relative;
+  right: 25px;
+}
+a.About-us-1{
+  color: #f7f7fc;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  position: relative;
+  left: 70px;
+  
+}
+a.Gallery-1{
+  color: #f5f5f5;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  position: relative;
+  left: 20px;
+}
+.footer-line{
+  height: 2px;
+  background-color: antiquewhite;
+  position: relative;
+  right: 120px;
+  opacity: 5%; 
+  top: 10px;
+  width: 510px;
+}
+p.copyright{
+  color: #fdfdff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  top: 85px;
+  position: relative;
+  left: -90px;
+}
+
+
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+  position: relative;
+  top: 100px;
+  left: 650px;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}

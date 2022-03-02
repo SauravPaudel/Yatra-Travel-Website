@@ -1,0 +1,719 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+}
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  background-color: 1D3557;
+  min-height: 500vh;
+  width: 250vh;
+  overflow-x: hidden;
+}
+header{
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+transition: 0.6s;
+padding: 60px 100px;
+z-index: 100000;
+}
+
+header.sticky{
+  padding: 30px 100px;
+  background: black;
+}
+
+header.sticky .logo
+header.sticky ul li a{
+  color: whitesmoke;
+  
+}
+
+header .logo{
+  position: relative;
+  font-weight: 700;
+  color: whitesmoke;
+  text-decoration: none;
+  font-size: 2em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: 0.6s;
+ 
+}
+
+header .ul{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+
+header ul li{
+  position: relative;
+  list-style: none;
+  font-family:Arial, Helvetica, sans-serif
+  
+}
+ header ul li a{
+   position: relative;
+   margin: 0 15px;
+   text-decoration: none;
+   color: rgb(243, 236, 236);
+   letter-spacing: 2px;
+   font-weight: 500px;
+   transition: 0.6s;
+   font-size: 1em;
+   
+   
+ }
+
+ li{
+   float: left;
+ }
+
+ .banner{
+  position: relative;
+  width: 100%;
+  height: 80vh;
+  background: url(images/pokhara3.jpg);
+ background-size: cover;
+}
+
+
+
+.headline .travel {
+  position: absolute;
+  font-family: 'Kaushan Script', cursive;
+  right: 500px;
+  top: 200px;
+  font-size: 8em;
+  color: rgb(235, 232, 223);
+  letter-spacing: 10px;
+  transition: 0.6s;
+  justify-content: center;
+}
+
+.sub-title{
+  font-size: 2em;
+  color: rgb(231, 221, 221);
+  position: relative;
+  bottom: 260px;
+  left: 600px;
+  font-family: 'Kaushan Script';
+}
+
+/* Story landing page css  */
+
+.ourstory{
+  position: relative;
+  left: 545px;
+  top: 70px;
+}
+
+#back{
+  color: rgb(104, 99, 99);
+  font-size: 5em;
+  opacity:0.09;
+  position: relative;
+  right: -20px;
+}
+
+#front{
+  color: #000;
+  font-weight: 300;
+  position: relative;
+  bottom: 40px;
+  left: 100px;
+}
+
+#up{
+  color: orange;
+  position: relative;
+  bottom:83px ;
+  left: 100px;
+  opacity: 0.5;
+}
+
+#traveler{
+  width: 500px;
+  position: relative;
+  left: 800px;
+  bottom: 200px;
+  
+}
+hr {
+  width: 50px;
+  height: 3px;
+  margin: 20px auto;
+  border: 0;
+  background: #cf6839;
+  position: relative;
+  right: 740px;
+  bottom: 50px;
+}
+#ourstory-paragraph-1{
+  font-size: 1.5em;
+  position: relative;
+  right: 200px;
+  bottom: 20px;
+  font-family:  'Montserrat', sans-serif;
+ }
+
+ 
+
+ 
+.journey{
+  position: relative;
+  left: 570px;
+  bottom: -170px;
+}
+
+#back-2{
+  color: rgb(104, 99, 99);
+  font-size: 5em;
+  opacity:0.09;
+}
+
+#front-2{
+  color: orange;
+  
+  position: relative;
+  bottom: 60px;
+  left: 170px;
+  opacity: 0.5;
+}
+
+#up-2{
+  color: rgba(8, 8, 8, 0.856);
+  position: relative;
+  bottom:65px ;
+  left: 90px;
+  font-weight: 300;
+  
+}
+
+/* Loaction  */
+.row-shyambhu{
+  position: relative;
+  left: 240px;
+  top: 200px;
+  display: inline-block;
+  
+}
+
+.img-fluid{
+  width: 400px;
+  height: 500px;
+  border-radius: 10px;
+  }
+
+  .img-fluid-2{
+    width: 400px;
+    height: 500px;
+    border-radius: 10px;
+  }
+  
+  .row-sagarmatha{
+    position: relative;
+    left: 800px;
+    bottom: 100px;
+    
+  } 
+  
+  .listing-item-content{
+    position: relative;
+    left: 80px;
+    bottom: 95px;
+  }
+  
+  .place-name a{
+    color: rgb(255, 255, 255);
+   font-family: 'Montserrat', sans-serif;
+   position: relative;
+   top: 10px;
+   left: 8px;
+  }
+  
+  .traveling-fee {
+    background-color: orangered;
+    border-radius: 50px;
+    display: inline-block;
+    padding: 10px 20px;
+    position: relative;
+    left: 40px;
+    
+  }
+  a{
+    color: rgb(241, 232, 232);
+  }
+  a:hover{
+    color: white;
+  }
+  .traveling-fee:hover{
+   background-color: black;
+   transition:5sec;
+   animation: 3ms;
+  }
+
+  #about-shyambhu{
+  font-size: 1.2em;
+  position: relative;
+ left: 350px;
+  bottom: 400px;
+  font-family:  'Montserrat', sans-serif;
+  }
+
+ .info-shyambhu{
+   color: rgb(0, 0, 0);
+   font-family:'Montserrat', sans-serif ;
+   position: relative;
+   bottom: 410px;
+   left: 350px;
+ }
+
+ .things-shyambhu{
+  color: rgb(0, 0, 0);
+  font-family:'Montserrat', sans-serif ;
+  position: relative;
+  bottom: 350px;
+  left: 350px;
+}
+  
+#things{
+  color: rgb(0, 0, 0);
+   font-family:'Montserrat', sans-serif ;
+   position: relative;
+   bottom: 340px;
+   left: 350px;
+   font-size: 1.1em;
+}
+
+.button {
+  display: inline-flex;
+  height: 40px;
+  width: 150px;
+  border: 2px solid #000000;
+  margin: 20px 20px 20px 20px;
+  color: #031111;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: .8em;
+  letter-spacing: 1.5px;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+a {
+  color: #070e0e;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+
+#button-5 {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  top: -300px;
+  left: 500px;
+  border-radius: 5px;
+}
+
+#button-5 a {
+  position: relative;
+  transition: all .45s ease-Out;
+}
+
+#translate {
+  transform: rotate(50deg);
+  width: 100%;
+  height: 250%;
+  left: -200px;
+  top: -30px;
+  background:orange;
+  position: absolute;
+  transition: all .3s ease-Out;
+}
+
+#button-5:hover #translate {
+  left: 0;
+  
+}
+
+#button-5:hover a {
+  color: #000000;
+}
+
+.food-try{
+  position: relative;
+  right: -220px;
+  top: 50px;
+}
+
+#back-3{
+  color: rgb(104, 99, 99);
+  font-size: 5em;
+  opacity:0.09;
+}
+
+#front-3{
+  color: orange;
+  
+  position: relative;
+  bottom: 55px;
+  left: 110px;
+  opacity: 0.5;
+}
+
+#up-3{
+  color: rgba(8, 8, 8, 0.856);
+  position: relative;
+  bottom:60px ;
+  left: 65px;
+  font-weight: 300;
+  
+}
+#traveler{
+  position: relative;
+  top: 10px;
+  border-radius: 10px;
+}
+
+#ourstory-paragraph{
+  font-size: 1.08em;
+  position: relative;
+  left: 220px;
+  bottom: 300px;
+ }
+
+ /* Food  */
+ .food-img{
+   width: 50px;
+   height: 45px;
+   position: relative;
+   bottom: 200px;
+   left: 200px;
+  
+ }
+ .pizza{
+  position: relative;
+  bottom: 255px;
+  left: 220px;
+  }
+
+  .fast{
+    position: relative;
+  bottom: 180px;
+  left: 170px;
+  }
+
+  .fast-food{
+    position: relative;
+    bottom: 255px;
+    left: 400px;
+  }
+
+  .dish{
+    position: relative;
+    bottom: 170px;
+    left: 350px;
+  }
+  .high{
+    position: relative;
+    left: 280px;
+    bottom: 285px;
+  }
+
+  .local{
+    position: relative;
+    left: 290px;
+    bottom: 230px;
+  }
+  .protine{
+    position: relative;
+    left: 570px;
+    bottom: 320px;
+  }
+  .meet{
+    position: relative;
+    left: 570px;
+    bottom: 260px;
+  }
+
+
+  /* Food Images  */
+  .card {
+    background-image: url(images/bhat.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 
+      1px 3px 3px rgba(0,0,0,0.2),
+      -1px -1px 4px rgba(0,0,0,0.2);
+    height: 300px;
+    position: relative;
+    transition: box-shadow 130ms ease-in-out;
+    width: 300px;
+    left: 230px;
+  }
+  
+  .card:hover {
+    box-shadow: 
+      2px 6px 6px rgba(0,0,0,0.2),
+      -1px -1px 7px rgba(0,0,0,0.2);
+  }
+  
+  .food-details {
+    background-color: white;
+    bottom: 0;
+    left: 0;
+    padding: 1em 2em 2em 1em;
+    position: absolute;
+    right: 0;
+  }
+  
+  .food-details p {
+    margin: 0;
+  }
+  
+  .food-details p span {
+    color: gray;
+    font-size: 14px;
+  }
+
+  /* Card 2  */
+  .card-2 {
+    background-image: url(images/food/momo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 
+      1px 3px 3px rgba(0,0,0,0.2),
+      -1px -1px 4px rgba(0,0,0,0.2);
+    height: 300px;
+    position: relative;
+    transition: box-shadow 130ms ease-in-out;
+    width: 300px;
+    right: -600px;
+    bottom: 300px;
+  }
+  
+  .card-2:hover {
+    box-shadow: 
+      2px 6px 6px rgba(0,0,0,0.2),
+      -1px -1px 7px rgba(0,0,0,0.2);
+  }
+  
+  .food-details-2 {
+    background-color: white;
+    bottom: 0;
+    left: 0;
+    padding: 1em 2em 2em 1em;
+    position: absolute;
+    right: 0;
+  }
+  
+  .food-detail2 #p2 {
+    margin: 0;
+  }
+  
+  .food-detail2 #p2 span {
+    color: gray;
+    font-size: 14px;
+  }
+
+  /* card 3  */
+  
+  /* Card 2  */
+  .card-3 {
+    background-image: url(images/macha.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 
+      1px 3px 3px rgba(0,0,0,0.2),
+      -1px -1px 4px rgba(0,0,0,0.2);
+    height: 300px;
+    position: relative;
+    transition: box-shadow 130ms ease-in-out;
+    width: 300px;
+    right: -970px;
+    bottom: 600px;
+  }
+  
+  .card3-:hover {
+    box-shadow: 
+      2px 6px 6px rgba(0,0,0,0.2),
+      -1px -1px 7px rgba(0,0,0,0.2);
+  }
+  
+  .food-details-3 {
+    background-color: white;
+    bottom: 0;
+    left: 0;
+    padding: 1em 2em 2em 1em;
+    position: absolute;
+    right: 0;
+  }
+  
+  .food-detail3 #p3 {
+    margin: 0;
+  }
+  
+  .food-detail3 #p3 span {
+    color: gray;
+    font-size: 14px;
+  }
+
+
+  .extra-info{
+    position: relative;
+    right: -220px;
+    bottom: 430px;
+  }
+  
+  #back-4{
+    color: rgb(104, 99, 99);
+    font-size: 5em;
+    opacity:0.09;
+  }
+  
+  #front-4{
+    color: orange;
+    
+    position: relative;
+    bottom: 55px;
+    left: 140px;
+    opacity: 0.5;
+  }
+  
+  #up-4{
+    color: rgba(8, 8, 8, 0.856);
+    position: relative;
+    bottom:60px ;
+    left: 85px;
+    font-weight: 300;
+    
+  }
+
+  .shyambhu-map{
+    position: relative;
+    left: 600px;
+    bottom: 200px;
+    width: 520px;
+    height: 400px
+  }
+
+
+  /* Footer  */
+  /* Footer  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+footer{
+	background-color: #030303;
+   height: 270px;
+   position: relative;
+   top: 200px;
+}
+
+.sub-footer{
+  position: relative;
+  left: 650px;
+  top: 100px;
+}
+
+a.Home-1{
+  color: #d8d8e4;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  position: relative;
+  right: 140px;
+}
+a.Trip{
+  color: #f1f1f5;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  position: relative;
+  right: 75px;
+}
+a.Blogs{
+  color: #e2e2eb;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  position: relative;
+  right: 25px;
+}
+a.About-us-1{
+  color: #efeffc;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  position: relative;
+  left: 70px;
+  
+}
+a.Gallery-1{
+  color: #fafafa;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  position: relative;
+  left: 20px;
+}
+.footer-line{
+  height: 2px;
+  background-color: antiquewhite;
+  position: relative;
+  right: 790px;
+  opacity: 5%; 
+  top: 10px;
+  width: 510px;
+}
+p.copyright{
+  color: #e8e8ec;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  top: 60px;
+  position: relative;
+  right: 110px;
+}
+
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+  position: relative;
+  top: 85px;
+  left: 650px;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}

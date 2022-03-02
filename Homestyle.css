@@ -1,0 +1,721 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+}
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  background-color: rgb(255, 255, 255);
+  min-height: 600vh;
+  width: 250vh;
+  overflow-x: hidden;
+}
+header{
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+transition: 0.6s;
+padding: 60px 100px;
+z-index: 100000;
+}
+
+header.sticky{
+  padding: 30px 100px;
+  background: black;
+}
+
+header.sticky .logo
+header.sticky ul li a{
+  color: rgb(0, 0, 0);
+  
+}
+
+header .logo{
+  position: relative;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 2em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: 0.6s;
+ 
+}
+
+header .ul{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+
+header ul li{
+  position: relative;
+  list-style: none;
+  font-family:Arial, Helvetica, sans-serif
+  
+}
+ header ul li a{
+   position: relative;
+   margin: 0 15px;
+   text-decoration: none;
+   color: rgb(250, 250, 250);
+   letter-spacing: 2px;
+   font-weight: 500px;
+   transition: 0.6s;
+   font-size: 1em;
+   
+   
+ }
+
+ li{
+   float: left;
+ }
+ .banner{
+   position: relative;
+   width: 100%;
+   height: 100vh;
+   background: url(images/banner.png);
+   background-size: cover;
+ }
+
+ .headline .travel{
+   position: absolute;
+   font-family: 'Kaushan Script', cursive;
+   right: 650px;
+   top: 300px;
+   font-size: 8em;
+   color: cornsilk;
+   letter-spacing: 10px;
+   transition: 0.6s;
+   justify-content: center;
+ }
+
+ .explorer a{
+   font-size: 2em;
+   text-decoration: none;
+   color: rgb(252, 248, 248);
+   display: inline-block;
+   padding: 15px 30px;
+   border-radius: 50px;
+   background: #9e7676;
+   margin-top: 20px;
+   position: absolute;
+   right: 700px;
+   top: 500px;
+   font-family: 'Montserrat', sans-serif;
+   letter-spacing: 2px;
+   font-weight: 200px;
+ }
+
+ .explorer a:hover{
+   background: rgb(201, 199, 196);
+   color: black;
+ }
+
+/* Story landing page css  */
+
+ .ourstory{
+   position: relative;
+   left: 250px;
+   top: 100px;
+ }
+
+ #back{
+   color: grey;
+   font-size: 5em;
+   opacity:0.09;
+ }
+
+ #front{
+   color: #000;
+   font-weight: 300;
+   position: relative;
+   bottom: 35px;
+   left: 10px;
+ }
+
+ #up{
+   color: orange;
+   position: relative;
+   bottom:85px ;
+   left: 10px;
+   opacity: 0.5;
+ }
+
+ #traveler{
+   width: 500px;
+   position: relative;
+   left: 800px;
+   bottom: 200px;
+   
+ }
+
+ #ourstory-paragraph{
+  font-size: 1.08em;
+ }
+
+
+ .button {
+  display: inline-flex;
+  height: 40px;
+  width: 150px;
+  border: 2px solid #000000;
+  margin: 20px 20px 20px 20px;
+  color: #031111;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: .8em;
+  letter-spacing: 1.5px;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+a {
+  color: #070e0e;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+
+#button-5 {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  top: 150px;
+  left: 230px;
+  border-radius: 5px;
+}
+
+#button-5 a {
+  position: relative;
+  transition: all .45s ease-Out;
+}
+
+#translate {
+  transform: rotate(50deg);
+  width: 100%;
+  height: 250%;
+  left: -200px;
+  top: -30px;
+  background:orange;
+  position: absolute;
+  transition: all .3s ease-Out;
+}
+
+#button-5:hover #translate {
+  left: 0;
+  
+}
+
+#button-5:hover a {
+  color: #000000;
+}
+
+/* Second landing page  */
+
+.journey{
+  position: relative;
+  left: 600px;
+  bottom: 100px;
+}
+
+#back-2{
+  color: grey;
+  font-size: 5em;
+  opacity:0.09;
+}
+
+#front-2{
+  color: orange;
+  
+  position: relative;
+  bottom: 60px;
+  left: 100px;
+  opacity: 0.5;
+}
+
+#up-2{
+  color: rgba(8, 8, 8, 0.856);
+  position: relative;
+  bottom:65px ;
+  left: 35px;
+  font-weight: 300;
+  
+}
+
+.row-shyambhu{
+  position: relative;
+  left: 240px;
+  bottom: 120px;
+  display: inline-block;
+  
+}
+
+.img-fluid{
+width: 400px;
+height: 500px;
+border-radius: 10px;
+}
+
+.img-fluid-2{
+  width: 400px;
+  height: 500px;
+  border-radius: 10px;
+}
+
+.row-sagarmatha{
+  position: relative;
+  left: 800px;
+  bottom: 100px;
+  
+} 
+
+.listing-item-content{
+  position: relative;
+  left: 80px;
+  bottom: 95px;
+}
+
+.place-name a{
+  color: antiquewhite;
+ font-family: 'Montserrat', sans-serif;
+ position: relative;
+ top: 10px;
+ left: 8px;
+}
+
+.traveling-fee {
+  background-color: orangered;
+  border-radius: 50px;
+  display: inline-block;
+  padding: 10px 20px;
+  position: relative;
+  left: 40px;
+  
+}
+/* For sagarmatha  */
+
+.listing-item-content-2{
+  position: relative;
+  left: 80px;
+  bottom: 95px;
+}
+
+.place-name-2 a{
+  color: antiquewhite;
+ font-family: 'Montserrat', sans-serif;
+ position: relative;
+ top: 10px;
+ left: 45px;
+}
+
+.traveling-fee-2 {
+  background-color: orangered;
+  border-radius: 50px;
+  display: inline-block;
+  padding: 10px 20px;
+  position: relative;
+  left: 40px;
+ 
+}
+
+
+/* Our features  */
+.destination{
+  position: absolute;
+  left: 600px;
+  bottom: -2200px;
+}
+
+#back-2-destination{
+  color: grey;
+  font-size: 5em;
+  opacity:0.09;
+  position: relative;
+  left: -120px;
+}
+
+#front-2-destination{
+  color: orange;
+  
+  position: relative;
+  bottom: 60px;
+  left: 70px;
+  opacity: 0.5;
+}
+
+#up-2-destination{
+  color: rgba(8, 8, 8, 0.856);
+  position: relative;
+  bottom:65px ;
+  left: 35px;
+  font-weight: 300;
+  
+}
+
+.our-features{
+  background-color: rgb(230, 236, 238);
+  width: 100%;
+  height: 50%;
+  position: absolute;
+  top: 390%;
+}
+
+
+.globe-main{
+  position:absolute;
+  left: 300px;
+  top: 100px;
+}
+
+
+  /* Comfortable journey  */
+  .globe{
+    width: 70px;
+    height: 70px;
+    size: 50%;
+  }
+
+  #info-act-1{
+    font-size: 25px;
+    font-family: 'Baloo Tammudu 2', cursive;
+    color: rgb(33, 34, 36);
+    position:relative;
+    top: 20px;
+    left: -70px;
+    
+  }
+  #info-pragraph-1{
+    font-size: 18px;
+    font-family: 'Baloo Tammudu 2', cursive;
+    position:relative;
+    top: 10px;
+    left: -96px;
+    color: grey;
+   
+  }
+
+  #info-pragraph-2{
+    font-size: 18px;
+    font-family: 'Baloo Tammudu 2', cursive;
+    position:relative;
+    top: 1px;
+    left: -75px;
+    color: grey;
+   
+  }
+
+  /* Luxuries Hotel */
+
+  .Luxuries-Hotel{
+    position:absolute;
+    left: 700px;
+    top: 100px;
+  }
+
+  #info-act-2{
+    font-size: 25px;
+    font-family: 'Baloo Tammudu 2', cursive;
+    color: rgb(33, 34, 36);
+    position:relative;
+    top: 20px;
+    left: -45px;
+    
+  }
+  #info-pragraph-3{
+    font-size: 18px;
+    font-family: 'Baloo Tammudu 2', cursive;
+    position:relative;
+    top: 10px;
+    left: -96px;
+    color: grey;
+   
+  }
+
+  #info-pragraph-4{
+    font-size: 18px;
+    font-family: 'Baloo Tammudu 2', cursive;
+    position:relative;
+    top: 1px;
+    left: -75px;
+    color: grey;
+   
+  }
+
+  .hotel{
+    width: 70px;
+    height: 70px;
+    size: 50%;
+  }
+
+  /* Travel Guide */
+  .Travel-guide{
+    position:absolute;
+    left: 1100px;
+    top: 100px;
+  }
+
+  #info-act-3{
+    font-size: 25px;
+    font-family: 'Baloo Tammudu 2', cursive;
+    color: rgb(33, 34, 36);
+    position:relative;
+    top: 20px;
+    left: -37px;
+    
+  }
+  #info-pragraph-5{
+    font-size: 18px;
+    font-family: 'Baloo Tammudu 2', cursive;
+    position:relative;
+    top: 10px;
+    left: -96px;
+    color: grey;
+   
+  }
+
+  #info-pragraph-6{
+    font-size: 18px;
+    font-family: 'Baloo Tammudu 2', cursive;
+    position:relative;
+    top: 1px;
+    left: -75px;
+    color: grey;
+   
+  }
+
+  .earth{
+    width: 70px;
+    height: 70px;
+    size: 50%;
+  }
+
+  /* Our team  */
+
+.team{
+  position: absolute;
+  left: 600px;
+  bottom: -2830px;
+}
+
+#back-2-team{
+  color: grey;
+  font-size: 5em;
+  opacity:0.09;
+  position: relative;
+  left: -70px;
+}
+
+#front-2-team{
+  color: orange;
+  position: relative;
+  bottom: 60px;
+  left: 78px;
+  opacity: 0.5;
+}
+
+#up-2-team{
+  color: rgba(8, 8, 8, 0.856);
+  position: relative;
+  bottom: 66px;
+  left: 35px;
+  font-weight: 300;
+  
+}
+
+
+/* teams section styling */
+.our-team{
+  position: relative;
+  top: 625px;
+  right: 155px;
+}
+
+
+.container{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-wrap:wrap;
+  margin:100px 0px;
+  max-width:100%;
+}
+.cards{
+  width:350px;
+  height:400px;
+  background:#fff;
+  margin:20px;
+  border-radius:15px;
+  box-shadow:0px 0px 15px 0px #313131;
+  background-size:102%;
+  background-repeat:no-repeat;
+  background-position:top center;
+  position:relative;
+  overflow:hidden;
+
+}
+.card1{
+  background-image:url("images/saueav3.jpg");
+}
+.card2{
+  background-image:url("images/food/bhatta.jpg");
+  /* or
+  background-image:url("https://i.hizliresim.com/gp7wjgg.jpg"); */
+}
+.card3{
+  background-image:url("images/ravi2.jpg");
+}
+
+.bottom-bar{
+  width:100%;
+  height:45px;
+  position:absolute;
+  bottom:-100%;
+  background:rgb(0, 0, 0);
+  transition:all 0.3s;
+  text-align:center;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  z-index:99;
+  border-top:1px solid #3333;
+}
+
+.cards:hover .bottom-bar{
+  bottom:0px;
+}
+.cards a{
+  cursor:pointer;
+  padding:5px 10px;
+  border-radius:4px;
+  color:whitesmoke;
+}
+.cards a:hover{
+  background:#3333;
+  color:white;
+}
+.cards p{
+  text-align:center;
+  position:absolute;
+  width:100%;
+  bottom:5px;
+  font-size:18px;
+  color:rgb(0, 0, 0);
+}
+
+
+
+/* Footer  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+footer{
+	background-color: #000000;
+   height: 270px;
+   position: relative;
+   top: 750px;
+}
+
+.sub-footer{
+  position: relative;
+  left: 650px;
+  top: 100px;
+}
+
+a.Home-1{
+  color: #fafafa;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  position: relative;
+  right: 140px;
+}
+a.Trip{
+  color: #f3f3f5;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  position: relative;
+  right: 75px;
+}
+a.Blogs{
+  color: #efeff3;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  position: relative;
+  right: 25px;
+}
+a.About-us-1{
+  color: #f7f7fc;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  position: relative;
+  left: 70px;
+  
+}
+a.Gallery-1{
+  color: #f5f5f5;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  position: relative;
+  left: 20px;
+}
+.footer-line{
+  height: 2px;
+  background-color: antiquewhite;
+  position: relative;
+  right: 120px;
+  opacity: 5%; 
+  top: 10px;
+  width: 510px;
+}
+p.copyright{
+  color: #fdfdff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  top: 85px;
+  position: relative;
+  right: 110px;
+}
+
+
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+  position: relative;
+  top: 100px;
+  left: 650px;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
