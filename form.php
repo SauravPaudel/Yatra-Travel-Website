@@ -1,3 +1,31 @@
+<?php 
+require 'databaseconfig.php';
+
+if(isset($_POST['book'])){
+    $name = $_POST['fullname'];
+    $address = $_POST['address'];
+    $email = $_POST['email'];
+    $contact = $_POST['contact'];
+    $destination = $_POST['destination'];
+    $date = $_POST['date'];
+    $member = $_POST['member'];
+    
+   
+        
+        $insert_sql = "INSERT INTO booking(name,address,email,contact,destination,date,member) VALUES ('$name','$address','$email','$contact','$destination','$date','$member')";
+      
+        $insert_result = $con->query($insert_sql);
+        if(!$insert_result){
+            echo'<script>alert("booking failed");</script>';
+        }
+        else{
+            echo '<script type="text/javascript">alert("booking successful")</script>';
+            header("Location:kathmandu.php");
+        }
+    }
+    
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,11 +39,11 @@
 <body>
   <section>
     <div class="container">
-      <form action="connect.php" method="POST" id="my-form">
+      <form method="POST" id="my-form">
   
         <div class="form-group">
           <label for="fullname"> Full Name</label>
-          <input type="text" id="firstName" name="fullName">
+          <input type="text" id="firstName" name="fullname">
         </div>
   
         <div class="form-group">
@@ -45,10 +73,10 @@
 
         <div class="form-group">
           <label for="address">Member</label>
-          <input type="number" id="address" name="address">
+          <input type="number" id="member" name="member">
         </div>
   
-        <button type="submit">Submit</button>
+        <input type="submit" name="book" value="Submit"></input>
       </form>
     </div>
     <div id="status"></div>

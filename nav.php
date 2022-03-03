@@ -1,6 +1,5 @@
 <?php 
   session_start();
-  $_SESSION['login'] = "";
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -30,7 +29,8 @@
             <li><a href="about.html">About us</a></li>
             <li><?php
               if($_SESSION['login'] == "loggedin"){?>
-                <a href="#"><?php echo $_SESSION['username'];?></a>
+              <!-- Hover Effect  -->
+                <a id="logout" href="logout.php"><?php echo $_SESSION['username'];?></a>
               <?php }
               else{?>
               <a href="login.php">Sign In</a>

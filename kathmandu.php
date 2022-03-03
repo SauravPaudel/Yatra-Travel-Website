@@ -19,12 +19,19 @@
 <header>
   <a href="#" class="logo">Yatra</a>
   <ul class="link">
-      <li><a href="Home.html">Home</a></li>
-      <li><a href="trip.html">Trip</a></li>
+      <li><a href="Home.php">Home</a></li>
+      <li><a href="trip.php">Trip</a></li>
       <!-- <li><a href="#">Blogs</a></li> -->
       <li><a href="gallery.html">Gallery</a></li>
-      <li><a href="about.html">About us</a></li>
-      <li><a href="login.php">Sign In</a></li>
+      <li><a href="about.html">About us</a>
+      <?php
+              if($_SESSION['login'] == "loggedin"){?>
+              <!-- Hover Effect  -->
+                <a id="logout" href="logout.php"><?php echo $_SESSION['username'];?></a>
+              <?php }
+              else{?>
+              <a href="login.php">Sign In</a>
+              <?php } ?></li>
   </ul>
 </header>
 <section class="banner"></section>
@@ -58,7 +65,7 @@
       <img src="images/shyambhu.jpg" alt="Image" class="img-fluid">
       </div>
       <div class="listing-item-content">
-      <a class="traveling-fee" <?php if($_SESSION['login'] =="loggedin"){?>href="home.php"<?php }else{?> href="login.php"<?php }?>>Rs 200.00</a>
+      <a class="traveling-fee" <?php if($_SESSION['login'] =="loggedin"){?>href="form.php"<?php }else{?> href="login.php"<?php }?>>Rs 200.00</a>
       <h2 class="place-name"><a href="#">Shyambhunath</a></h2>
       <h2 class="info-shyambhu">Information</h2>
       <p id="about-shyambhu">The Swayambhunath Stupa is one of the crowning glories of Kathmandu Valley architecture.<br> This perfectly proportioned monument rises through a whitewashed dome to a gilded spire,<br> from where four iconic faces of the Buddha stare out across the valley in the cardinal directions.<br>The site was shaken severely by the 2015 earthquake, but the main stupa sustained only superficial<br> damage. </p>

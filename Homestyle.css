@@ -719,3 +719,10 @@ p.copyright{
 	color: #24262b;
 	background-color: #ffffff;
 }
+
+
+/* Logout Hover Effect  */
+#logout:hover{
+  color: rgb(236, 28, 28);
+  width: 50px;
+}

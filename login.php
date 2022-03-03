@@ -1,7 +1,7 @@
 <?php 
 
 session_start();
-
+$_SESSION['login'] = '';
 require 'databaseconfig.php';
 
 if(isset($_POST['login'])){
