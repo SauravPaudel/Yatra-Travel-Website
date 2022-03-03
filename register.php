@@ -12,14 +12,14 @@
 
             echo "password mismatch";
         }
-        $select_user = "SELECT email FROM users_table WHERE email ='$email'";
+        $select_user = "SELECT email FROM register WHERE email ='$email'";
 
         $result = $con->query($select_user);
         if(!$result){
             echo " user already exists";
         }else{
             $hashedpwd = password_hash($password,PASSWORD_DEFAULT);
-            $insert_user = "INSERT INTO users_table(name,address,email,contact,password) VALUES ('$name','$address','$email','$contact','$hashedpwd')";
+            $insert_user = "INSERT INTO register(name,address,email,contact,password) VALUES ('$name','$address','$email','$contact','$hashedpwd')";
             $insert_result = $con->query($insert_user);
             if(!$insert_result){
                 echo "registrstion failed";

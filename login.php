@@ -8,7 +8,7 @@ if(isset($_POST['login'])){
     $email = $_POST['email'];
     $password = $_POST['password'];
 
-    $select_sql = "SELECT * FROM users_table WHERE email = '$email'";
+    $select_sql = "SELECT * FROM register WHERE email = '$email'";
 
     $result =$con->query($select_sql);
     if(!$result){
@@ -22,7 +22,7 @@ if(isset($_POST['login'])){
             $_SESSION['login'] = "loggedin";
             $_SESSION['username'] = $user['name'];
             $_SESSION['id'] = $user['id'];
-            header("Location:index.php");
+            header("Location:Home.php");
         }
         else{
             echo "incorrect password";

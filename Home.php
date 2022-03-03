@@ -1,35 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Yatra</title>
-  <link rel="stylesheet" href="Homestyle.css">
-  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-  <script src="https://kit.fontawesome.com/df7e5de428.js" crossorigin="anonymous"></script>
-  <link rel="shortcut icon" type="image/x-icon" href="images/Yatra.png" />
-
-  
-  
-
-
-</head>
-<body>
-
+<?php 
+  include('nav.php');
+?>
   <!-- Navigation bar -->
-<header>
-        <a href="#" class="logo">Yatra</a>
-        <ul class="link">
-            <li><a href="#">Home</a></li>
-            <li><a href="trip.html">Trip</a></li>
-            <!-- <li><a href="#">Blogs</a></li> -->
-            <li><a href="gallery.html">Gallery</a></li>
-            <li><a href="about.html">About us</a></li>
-            <li><a href="login.php">Sign In</a></li>
 
-        </ul>
-</header>
 <section class="banner"></section>
 
 
@@ -84,7 +57,7 @@
       <img src="images/shyambhu.jpg" alt="Image" class="img-fluid">
       </div>
       <div class="listing-item-content">
-      <a class="traveling-fee" href="kathmandu.html">Rs 200.00</a>
+      <a class="traveling-fee" href="kathmandu.php">Rs 200.00</a>
       <h2 class="place-name"><a href="#">Shyambhunath</a></h2>
       </div>
       </div>

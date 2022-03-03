@@ -1,32 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Yatra/Trip</title>
-
-
-  <link rel="stylesheet" href="trip.css">
-  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-  <link rel="shortcut icon" type="image/x-icon" href="images/Yatra.png" />
-
-  <script src="https://kit.fontawesome.com/df7e5de428.js" crossorigin="anonymous"></script>
-</head>
-<body>
-
-  <!-- Navigation bar -->
-<header>
-        <a href="#" class="logo">Yatra</a>
-        <ul class="link">
-            <li><a href="Home.html">Home</a></li>
-            <li><a href="trip.html">Trip</a></li>
-            <!-- <li><a href="#">Blogs</a></li> -->
-            <li><a href="gallery.html">Gallery</a></li>
-            <li><a href="about.html">About us</a></li>
-            <li><a href="login.php">Sign In</a></li>
-        </ul>
-</header>
+<?php
+  include('nav.php');
+?>
+<link rel="stylesheet" href="trip.css">
 <section class="banner"></section>
 
 <!-- Search bar  -->
@@ -48,7 +23,7 @@
   </div>
 
 <!-- Destination  -->
-<a href="kathmandu.html">
+<a href="kathmandu.php">
 
 <div class="all-card" id="product-list">
   

@@ -32,10 +32,20 @@
           <label for="address">Address</label>
           <input type="text" id="address" name="address">
         </div>
-  
+
         <div class="form-group">
-          <label for="massage">Message</label>
-          <textarea name="massage" id="massage" placeholder="Please Enter the location that you want to visit." cols="30" rows="10"></textarea>
+          <label for="address">Destination To Visit</label>
+          <input type="text" id="address" name="destination">
+        </div>
+
+        <div class="form-group">
+          <label for="address">Arrival Date</label>
+          <input type="date" id="address" name="date">
+        </div>
+
+        <div class="form-group">
+          <label for="address">Member</label>
+          <input type="number" id="address" name="address">
         </div>
   
         <button type="submit">Submit</button>
@@ -43,47 +53,5 @@
     </div>
     <div id="status"></div>
   </section>
-
-  <script>
-    window.addEventListener("DOMContentLoaded", function () {
-
-  var form = document.getElementById("my-form");
-  var status = document.getElementById("status");
-  function success() {
-    form.reset();
-    status.classList.add("success");
-    status.innerHTML = "Your Record Has Been Sumbitted !";
-  }
-
-  function error() {
-    status.classList.add("error");
-    status.innerHTML = "Oops! There was a problem.";
-  }
-
-  form.addEventListener("submit", function (ev) {
-    ev.preventDefault();
-    var data = new FormData(form);
-    ajax(form.method, form.action, data, success, error);
-  });
-});
-
-// // helper function for sending an AJAX request
-
-function ajax(method, url, data, success, error) {
-  var xhr = new XMLHttpRequest();
-  xhr.open(method, url);
-  xhr.setRequestHeader("Accept", "application/json");
-  xhr.onreadystatechange = function () {
-    if (xhr.readyState !== XMLHttpRequest.DONE) return;
-    if (xhr.status === 200) {
-      success(xhr.response, xhr.responseType);
-    } else {
-      error(xhr.status, xhr.response, xhr.responseType);
-    }
-  };
-  xhr.send(data);
-}
-
-  </script>
 </body>
 </html>

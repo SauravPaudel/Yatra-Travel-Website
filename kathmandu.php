@@ -1,3 +1,7 @@
+<?php 
+  session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -54,7 +58,7 @@
       <img src="images/shyambhu.jpg" alt="Image" class="img-fluid">
       </div>
       <div class="listing-item-content">
-      <a class="traveling-fee" href="form.html">Rs 200.00</a>
+      <a class="traveling-fee" <?php if($_SESSION['login'] =="loggedin"){?>href="home.php"<?php }else{?> href="login.php"<?php }?>>Rs 200.00</a>
       <h2 class="place-name"><a href="#">Shyambhunath</a></h2>
       <h2 class="info-shyambhu">Information</h2>
       <p id="about-shyambhu">The Swayambhunath Stupa is one of the crowning glories of Kathmandu Valley architecture.<br> This perfectly proportioned monument rises through a whitewashed dome to a gilded spire,<br> from where four iconic faces of the Buddha stare out across the valley in the cardinal directions.<br>The site was shaken severely by the 2015 earthquake, but the main stupa sustained only superficial<br> damage. </p>
