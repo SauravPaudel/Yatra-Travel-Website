@@ -63,7 +63,8 @@ if(isset($_POST['book'])){
 
         <div class="form-group">
           <label for="address">Destination To Visit</label>
-          <input type="text" id="address" name="destination">
+          <input type="text" id="address" name="destination" value ="Kathamandu">
+
         </div>
 
         <div class="form-group">
