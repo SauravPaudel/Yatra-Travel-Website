@@ -34,9 +34,9 @@
               <!-- Hover Effect  -->
               <div class="dropdown">
                 <a class="logout" href="logout.php"><?php echo $_SESSION['username'];?></a>
-  <div class="dropdown-content">
-    <a href="logout.php">Log Out</a>
-  </div>
+              <div class="dropdown-content">
+                <a href="logout.php">Log Out</a>
+              </div>
               <?php }
               else{?>
               <a href="login.php">Sign In</a>

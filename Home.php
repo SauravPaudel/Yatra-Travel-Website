@@ -11,9 +11,9 @@
 <div class="headline">
   <h1 class="travel"> Nepal</h1>
 </div>
-
+<!-- Explore      -->
 <div class="explorer">
-  <a href="trip.html">Explorer</a>
+  <a href="trip.php">Explorer</a>
 </div>
 
 
@@ -143,8 +143,8 @@
            <!-- Footer  -->
           <footer class="btm-footer">
             <div class="sub-footer">
-              <a href="#" class="Home-1">Home</a>
-              <a href="trip.html" class="Trip">Trip</a>
+              <a href="Home.php" class="Home-1">Home</a>
+              <a href="trip.php" class="Trip">Trip</a>
               <a href="#" class="Blogs">Blogs</a>
               <a href="gallery.html" class="Gallery-1">Gallery</a>
               <a href="about.html" class="About-us-1">About us</a>

@@ -1,5 +1,6 @@
 .dropdown {
   position: relative;
+  bottom: 10px;
 }
 
 .dropdown-content {
